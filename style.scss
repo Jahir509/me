@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap');
+
+body{
+    position:relative;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    .blank{
+        height: 300px;
+        width: 100%;
+        background:white;
+
+    }
+    .title{
+        position: absolute;
+        height: 300px;
+        width: 95%;
+        background:black;
+        color: white;
+        top: 15%;
+        left: 5%;
+        display: flex;
+
+        .image_box{
+            background: url('https://avatars.githubusercontent.com/u/20040216?v=4');
+            background-repeat: no-repeat;
+            background-size: 300px 300px;
+            height: 300px;
+            width: 17%;
+            border-right: 5px solid #8e9eab;
+        }
+        .intro{
+           color: #eee; 
+           width: 83%;
+           padding: 0 40px;
+            .header{
+                font-size: 3rem;
+                margin-bottom: 0;
+                font-weight: 400;
+
+            }
+            .subheader{
+                padding: 0;
+                font-weight: 400;
+            }
+            .social{
+                display: flex;
+                .icon{
+                    height: 50px;
+                    width: 50px;
+                    margin: 0 15px 0 0;
+                    .size{
+                        height:50px;
+                        width:50px
+                    }
+                }
+            }
+        }
+
+    }
+
+    .description{
+        margin-top: 162px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .section1{
+          margin: 0 10px;
+          height: 500px;
+          width: 500px;
+          background: green;
+          margin-left: 5%;
+
+          .header1{
+            display: flex;
+            align-items: center;
+            }
+            .detail1{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
+        .section2{
+          margin: 0 10px;
+            height: 500px;
+            width: 500px;
+            background: green;
+
+            .header2{
+                display: flex;
+                align-items: center;
+            }
+        }
+        .section3{
+          margin: 0 10px;
+           height: 500px;
+           width: 500px;
+           background: green; 
+           margin-right: 1%;
+
+           .header3{
+            display: flex;
+            align-items: center;
+        }
+        }
+    }
+
+}
